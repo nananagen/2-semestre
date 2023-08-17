@@ -1,0 +1,25 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+h1 {
+    color: var(--title, rgb(150, 24, 89));
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.99rem;
+    letter-spacing: 0.400rem;
+    padding: 100px;
+  }
+h3 {
+    font-family: Inter;
+    text-align: justify;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 15%;
+    line-height: 150%;
+  }
