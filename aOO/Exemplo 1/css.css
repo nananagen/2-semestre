@@ -1,0 +1,5 @@
+.container {
+    padding: 3.0rem;
+    letter-spacing: normal;
+    grid-template-columns: auto;
+}
