@@ -28,7 +28,32 @@ console.log(areaQuadrado2(4)); //pansando por aqui
 }); 
 */
 
-function imprimeClique(){
+function imprimeClique(){ //imprinmindo cliques
     console.log('Clicou!');
 };
 addEventListener('click', imprimeClique); //sem parametros p/ execução
+
+var cont = 0; //contando os cliques
+var imprimeClique = function(){
+    console.log((`Clicou ${++cont}`));
+}
+addEventListener('click', imprimeClique);
+
+/* var cont = 0; //alternativa 1
+addEventListener('click', imprimeClique = function(){
+    console.log((`Clicou ${++cont}`));
+});
+
+var cont = 0; //alternativa 2
+addEventListener('click', function(){
+    console.log(`Clicou ${++cont}`);
+}); */
+
+function imc (peso, altura) {
+    const imc = peso / (altura ** 2);
+    return undefined;
+}
+var resultado = imc(80, 1.80);
+console.log(resultado);
+
+
