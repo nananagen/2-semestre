@@ -1,0 +1,40 @@
+/*
+var variavel1 = 123;
+var variavel2 = '4';
+var total = variavel1 + variavel2;
+console.log(total);
+console.log(total.typeof)
+
+var texto = "a nota é:";
+var aluno = "juca";
+var texto2 = "é";
+var nota = 10;
+console.log();
+
+var aluno = "juca";
+var nota = 10;
+var texto = `A nota do ${aluno} é ${nota}.`; //crase
+console.log(texto); 
+var resposta = 'It/ '
+var a;
+var b = 10;
+var c = false;
+
+a || b || c || console.log("Final");    
+
+if (('gato' === 'Gato') && (5 > 2)){
+    console.log('Verdadeiro');
+
+}else {
+    console.log('Falso');
+}
+
+if (('gato' === 'Gato') || (5 > 2)){
+    console.log('Gato' && 'Cão');
+
+}else {
+    console.log('Falso');
+}
+
+
+*/
