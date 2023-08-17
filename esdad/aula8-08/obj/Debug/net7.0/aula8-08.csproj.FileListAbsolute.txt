@@ -1,0 +1,15 @@
+D:\nagen\esdad\aula8-08\bin\Debug\net7.0\aula8-08.exe
+D:\nagen\esdad\aula8-08\bin\Debug\net7.0\aula8-08.deps.json
+D:\nagen\esdad\aula8-08\bin\Debug\net7.0\aula8-08.runtimeconfig.json
+D:\nagen\esdad\aula8-08\bin\Debug\net7.0\aula8-08.dll
+D:\nagen\esdad\aula8-08\bin\Debug\net7.0\aula8-08.pdb
+D:\nagen\esdad\aula8-08\obj\Debug\net7.0\aula8-08.csproj.AssemblyReference.cache
+D:\nagen\esdad\aula8-08\obj\Debug\net7.0\aula8-08.GeneratedMSBuildEditorConfig.editorconfig
+D:\nagen\esdad\aula8-08\obj\Debug\net7.0\aula8-08.AssemblyInfoInputs.cache
+D:\nagen\esdad\aula8-08\obj\Debug\net7.0\aula8-08.AssemblyInfo.cs
+D:\nagen\esdad\aula8-08\obj\Debug\net7.0\aula8-08.csproj.CoreCompileInputs.cache
+D:\nagen\esdad\aula8-08\obj\Debug\net7.0\aula8-08.dll
+D:\nagen\esdad\aula8-08\obj\Debug\net7.0\refint\aula8-08.dll
+D:\nagen\esdad\aula8-08\obj\Debug\net7.0\aula8-08.pdb
+D:\nagen\esdad\aula8-08\obj\Debug\net7.0\aula8-08.genruntimeconfig.cache
+D:\nagen\esdad\aula8-08\obj\Debug\net7.0\ref\aula8-08.dll
