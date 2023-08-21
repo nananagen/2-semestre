@@ -1,11 +1,10 @@
-
-    public class Funcionario
+public class Funcionario
 {
     //atributos
-    String nome;
-    double salarioBruto;
-    boolean usaValeTransporte, ehGerente;
-    int numeroFilhos;
+    private String nome;
+    private double salarioBruto;
+    private boolean usaValeTransporte, ehGerente;
+    private int numeroFilhos;
     
     //Construtor
     Funcionario(String vNome,double vSalBruto,
@@ -16,6 +15,18 @@
         ehGerente = vGerente;
         numeroFilhos = vNumFilhos;
     }
+    //Metodos de Acesso
+    public String getNome(){
+        return nome;
+        //pode-se ou nao usar o this, nesse caso
+    }
+    public void setNome(String nome){
+        if ( !nome.equals("") ) {
+            this.nome = nome;
+        }
+        //ou muda o nome, vnome. this procura variavel no sistema
+    }
+    
     // Metodos da Classe
     
     double inss(){
