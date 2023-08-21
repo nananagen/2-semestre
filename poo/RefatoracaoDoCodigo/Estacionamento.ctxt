@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Estacionamento
+comment1.params=
+comment1.target=Estacionamento()
+comment2.params=veiculo
+comment2.target=void\ addVeiculo(Veiculo)
+comment3.params=
+comment3.target=void\ adicionaCarro()
+comment4.params=
+comment4.target=void\ adicionaMoto()
+comment5.params=
+comment5.target=void\ adicionaCaminhao()
+numComments=6

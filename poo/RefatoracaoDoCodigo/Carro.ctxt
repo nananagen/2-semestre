@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Carro
+comment1.params=placa\ modelo\ horaEntrada\ horaSaida
+comment1.target=Carro(java.lang.String,\ java.lang.String,\ java.util.Date,\ java.util.Date)
+comment2.params=
+comment2.target=long\ CalcaTempo()
+comment3.params=
+comment3.target=double\ calcValorCarro()
+numComments=4
