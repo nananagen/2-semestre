@@ -6,9 +6,11 @@ public class Principal
         
         Funcionario f= new Funcionario("Zezin", 800, true, false, 8);
         
-        f.numeroFilhos = -15;
+        f.setNome("Pedrin") ;
         
-        System.out.println("#Funcionario: "+ f.nome + "Salario : R$" + f.salarioLiquido() );
+        //f.numeroFilhos = -15;
+        
+        System.out.println("#Funcionario: "+ f.getNome() + "Salario : R$" + f.salarioLiquido() );
         
     }
 }
