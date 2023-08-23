@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.target=Funcionario
+comment1.params=
+comment1.target=Funcionario()
+comment10.params=
+comment10.target=boolean\ getEhGerente()
+comment11.params=ehGerente
+comment11.target=void\ setEhGerente(boolean)
+comment12.params=
+comment12.target=double\ inss()
+comment13.params=
+comment13.target=double\ descontoVale()
+comment14.params=
+comment14.target=double\ bonusPorFilho()
+comment15.params=
+comment15.target=double\ bonusGerencia()
+comment16.params=
+comment16.target=double\ salarioLiquido()
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment2.text=\ O\ que\ estava\ em\ Funcionario\ antes?\n\ String\ vNome,double\ vSalBruto,\n\ \ \ \ boolean\ vVale,\ boolean\ vGerente,\ int\ vNumFilhos){\n\ \ \ \ \ \ \ \ nome\ \=\ vNome;\n\ \ \ \ \ \ \ \ salarioBruto\ \=\ vSalBruto;\n\ \ \ \ \ \ \ \ usaValeTransporte\ \=\ vVale;\n\ \ \ \ \ \ \ \ ehGerente\ \=\ vGerente;\nnumeroFilhos\ \=\ vNumFilhos;
+comment3.params=nome
+comment3.target=void\ setNome(java.lang.String)
+comment4.params=
+comment4.target=int\ getNumeroFiho()
+comment5.params=numeroFilhos
+comment5.target=void\ setNumeroFilho(int)
+comment6.params=
+comment6.target=double\ getSalarioBruto()
+comment7.params=salarioBruto
+comment7.target=void\ setSalarioBruto(double)
+comment8.params=
+comment8.target=boolean\ usaValeTransporte()
+comment9.params=usaValeTransporte
+comment9.target=void\ setUsaValeTransporte(boolean)
+numComments=17
