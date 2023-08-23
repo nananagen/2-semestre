@@ -48,7 +48,29 @@ int SomaPares(int primeiro, int ultimo)
     if (primeiro % 2 == 0)
         return primeiro + SomaPares(primeiro + 1, ultimo);
     else
-        return SomaPares(primeiro + 1, ultimo);
+        return 0 + SomaPares(primeiro + 1, ultimo);
 } */
 
+//or
 
+/* int inicio = 1, fim = 5;
+
+Console.WriteLine($"Soma dos pares entre {inicio} e {fim}: {SomaPares(inicio, fim)}.");
+
+int SomaPares(int primeiro, int ultimo)
+{
+    if (primeiro > ultimo)
+        return 0;
+    
+    return (primeiro % 2 == 0 ? primeiro : 0) + SomaPares(primeiro + 1, ultimo);
+} */
+
+Console.WriteLine($"Soma dos números entre {inicio} e {fim}: {SomaIntervalo(inicio, fim)}.");
+
+int SomaIntervalo(int primeiro, int ultimo)
+{
+    if (primeiro > ultimo)
+        return 0;
+    
+    return primeiro + SomaIntervalo(primeiro + 1, ultimo);
+}
