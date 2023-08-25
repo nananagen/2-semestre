@@ -1,0 +1,23 @@
+.titulo {
+    color: rgb(212, 250, 0);
+    background-color: blueviolet;
+}
+#paragrafo {
+    color: rgb(1, 2, 0);
+}
+.fundo-azul{
+    background-color: rgb(69, 236, 17);
+}
+.fundo-textura{
+    background-image: url(./imagens/img.png);
+}
+#paragrafo2 {
+    color: rgb(217, 255, 0);
+}
+body{
+    background-image: url(./imagens/img22222.png);
+    /*background-size: 1000px;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center; /* eixoX eixoY*/ 
+}
