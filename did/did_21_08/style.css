@@ -1,0 +1,14 @@
+
+#titulo {
+    font-style: italic;
+}
+.container {
+    color: rgb(255, 255, 255);
+    margin-right: 400px;
+    margin-top: 60px;
+}
+body {
+    background-image: url('./img/img.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
