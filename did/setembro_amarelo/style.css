@@ -1,0 +1,27 @@
+.grupo1{
+    color: green;
+    font-size: large;
+}
+
+.grupo2{
+    color: blue;
+}
+
+#paragrafo1{
+    color: purple;
+}
+
+.titulos{
+    color: pink;
+}
+
+
+.texto-verde{
+    color: green;
+}
+
+/*font-size: x-large*/
+
+.font-tam{
+    font-size: x-large;
+}
