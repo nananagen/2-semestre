@@ -1,2 +1,2 @@
 # 2-semestre
-Material 2º Semestre Vianna. Aulas: Gerencia de Projetos, Tecnologia Web Avançada, Desing Interfaces Digitais, Estrutura de Dados, Banco de Dados Aplicado, Análise Orientado a Objetos e Prgramação Orientada a Objetos
+Material 2º Semestre Vianna. Aulas: Análise Orientado a Objetos, Banco de Dados Aplicado, Desing Interfaces Digitais, Estrutura de Dados, Gerencia de Projetos, Prgramação Orientada a Objetos e Tecnologia Web Avançada.
