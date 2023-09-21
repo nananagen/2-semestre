@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+header{
+    background-color: rgba(210, 86, 210, 0.763);
+}
+
+nav{
+    background-color: blue;
+}
+
+section{
+    background-color: aquamarine;
+}
+
+article{
+    background-color: red;
+}
+
+aside{
+    background-color: salmon;
+}
+
+footer{
+    background-color: greenyellow;
+}
