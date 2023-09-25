@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Entrevistado
+comment1.params=
+comment1.target=Entrevistado()
+comment2.params=idade\ altura\ sexo\ corOlhos\ corCabelos
+comment2.target=Entrevistado(int,\ double,\ char,\ java.lang.String,\ ETipoCorCabelo)
+comment3.params=corCabelos
+comment3.target=void\ setCorCabelos(ETipoCorCabelo)
+comment4.params=
+comment4.target=ETipoCorCabelo\ getCorCabelos()
+comment5.params=corOlhos
+comment5.target=void\ setCorOlhos(java.lang.String)
+comment6.params=sexo
+comment6.target=void\ setSexo(char)
+comment7.params=
+comment7.target=char\ getSexo()
+comment8.params=altura
+comment8.target=void\ setAltura(double)
+numComments=9

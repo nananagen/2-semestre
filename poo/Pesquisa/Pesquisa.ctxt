@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Pesquisa
+comment1.params=data
+comment1.target=Pesquisa(java.lang.String)
+comment2.params=
+comment2.target=java.util.ArrayList\ getEntrevistados()
+comment3.params=ent
+comment3.target=void\ AdicionaEntrevistado(Entrevistado)
+comment4.params=dataPesquisa
+comment4.target=void\ setDataPesquisa(java.lang.String)
+numComments=5
