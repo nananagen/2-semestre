@@ -1,0 +1,41 @@
+h4 {
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#carro_cont {
+    background-color: black;
+    padding: 20px;
+    margin: 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bike_cont {
+    background-color: black;
+    padding: 20px;
+    margin: 30px 20px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    background-color: #febe01;
+    padding: 5px;
+    font-size: 0.7rem;
+    border-radius: 2px;
+}
+
+.titulo {
+    color: white;
+}
+
+.preco {
+    color: #febe01;
+    font-size: 1rem;
+}
+
+.descricao {
+    color: white;
+    font-size: 0.5rem;
+}
