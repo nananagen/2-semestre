@@ -1,0 +1,132 @@
+body {
+    background-color: greenyellow;
+    background-size: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    background-color:rgb(255, 234, 44);
+}
+
+h1 {
+    color: orangered;
+    font-family: Futurama_title;
+    text-align: center;
+    font-size: 70px;
+}
+
+#icon{
+    color: rgba(155, 25, 230, 0.822);
+    background-color: rgb(255, 234, 44);
+    font-family: Futurama_icon1;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: orangered;
+    font-family: Futurama_bold;
+    background-color: rgb(255, 234, 44);
+    text-align: center;
+    font-size: 40px;
+}
+
+#paragrafo_sobre {
+    font-family: Futurama_bold;
+    font-size: 30px;
+    background-color: rgb(250, 235, 99);
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.game-container {
+    display: grid;
+    background-color: rgb(255, 234, 44);
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 50px auto;
+    width: 450PX;
+    height: auto;
+}
+
+.card {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 234, 44);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#timer {
+    color: orangered;
+    text-align: center;
+    background-color: rgb(255, 234, 44);
+    font-family: Futurama_bold;
+    font-size: 25px;
+}
+
+.title_menu{
+    color: #7b00ff;
+    list-style: none;
+}
+
+.title_menu:hover {
+    color: #7b00ff;
+}
+
+.acessar_menu{
+    
+    height: 100px;
+    width: 100px;
+}
+
+.menu {
+    font-family: Futurama_bold;
+    font-size: 25px;
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-color: #ffffff;
+    border: 2px solid #7b00ff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.menu.show-menu {
+    display: block;
+}
+
+/*As cores foram alteradas e o fundo (imagem) também. Nessa versão, a página está com um visual mais limpo
+e que facilita a visualização da página. Os tons seguem bem satudaros, cativando o público infantil.
+Dos tons principais, destaque ao laranja que é convidativo e amigável; O amarelo estimula o otimismo 
+ajuda na concentração, atenção e o intelecto; O verde representa equilíbrio, tranquilidade. E o roxo,
+que representa sucesso, está relacionado a intuição e estimula a criatividade.*/
+
+@font-face {
+    font-family: Futurama_title;
+    src: url('../../assets/fonts/fr-title.ttf');
+}
+
+@font-face {
+    font-family: Futurama_bold;
+    src: url('../../assets/fonts/fr-bold.ttf');
+}
+
+
+@font-face {
+    font-family: Futurama_icon1;
+    src: url('../../assets/fonts/icons.ttf');
+}
+
+@font-face {
+    font-family: Futurama_icon2;
+    src: url('../../assets/fonts/Futurama Hypnotoad2.ttf');
+}
