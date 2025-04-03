@@ -19,9 +19,11 @@ modoNoturno.addEventListener('click', (event)=>{
     if(corpo.classList.contains('dark')){
     btnAnt.classList.replace('is-dark', 'is-light');
     btnAnt.classList.replace('is-dark', 'is-light');
+    modoNoturno.innerText = "Modo diurno";
     }else{
     btnAnt.classList.replace('is-light', 'is-dark');
     btnAnt.classList.replace('is-light', 'is-dark');
+    modoNoturno.innerText = "Modo noturno";
     }
 });
 
@@ -56,14 +58,27 @@ const imagens = [
     "./images/bagmon/12.jpeg"
 ]
 
+let atual = 0;
 const areaView = document.querySelector('image ing')
 areaView.setAttribute('src', imagens[0]);
 
 btnAnt.addEventListener('click', (event)=>{
-    
+    event.preventDefault();
+    atual--;
+    if (atual == -1){
+        atual= imagens.length-1;
+    }
+    areaView.setAttribute('src', imagens[atual]);
+    areaView.setAttribute('alt', nomes[atual]);
 })
 btnProx.addEventListener('click', (event)=>{
-    
+    event.preventDefault();
+    atual++;
+    if (atual == imagens.length){
+        atual= 0;
+    }
+    areaView.setAttribute('src', imagens[atual]);
+    areaView.setAttribute('alt', nomes[atual]);
 })
 
 /*
@@ -72,3 +87,18 @@ Questão 03 - Extra
 Crie um script para mostrar no campo texto alternativo (alt) da imagem o nome do respectivo Bágmon.
 
 */
+
+const nomes = [
+    "VOARA",
+    "AZURARA",
+    "PEQUEMICO",
+    "MICODORADO",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+]
